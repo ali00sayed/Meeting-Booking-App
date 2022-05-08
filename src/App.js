@@ -74,8 +74,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="mt-3">
-        <h1 className="fw-bolder text-decoration-underline" id="h1tag">
-          Meeting Room Booking
+        <h1 className="fw-bolder" id="h1tag">
+          Meeting-Room-Booking
         </h1>
         <Inputs
           room={room}
@@ -90,7 +90,7 @@ const App = () => {
         </div>
       </div>
       <Booking handleTimeSelector={handleTimeSelector} />
-      <button className="btn btn-danger m-3" onClick={() => bookRoom()}>
+      <button className="btn btn-dark m-3" onClick={() => bookRoom()}>
         BOOK APPOINTMENT
       </button>
       <div className="container">

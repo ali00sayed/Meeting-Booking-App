@@ -24,7 +24,7 @@ const Booking = ({ handleTimeSelector }) => {
             key={idx}
             id={idx}
             type="button"
-            className="btn btn-outline-danger m-1"
+            className="btn btn-primary m-1"
             onClick={() => handleTimeSelector(time)}
           >
             {time}
